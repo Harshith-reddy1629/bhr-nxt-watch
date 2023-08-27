@@ -1,0 +1,21 @@
+.trending-link-item {
+  all: unset;
+  height: 220px;
+  /* width: 280px; */
+  display: flex;
+  /* flex-direction: column; */
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+@media (max-width: 784px) {
+  .trending-link-item {
+    height: 160px;
+    /* width: 190px; */
+  }
+}
+@media (max-width: 576px) {
+  .trending-link-item {
+    height: 135px;
+    /* width: 190px; */
+  }
+}

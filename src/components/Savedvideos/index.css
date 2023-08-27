@@ -1,0 +1,14 @@
+.saved-img {
+  height: 160px;
+  width: 260px;
+}
+@media (max-width: 576px) {
+  .saved-img {
+    height: 120px;
+    width: 160px;
+  }
+}
+.tt {
+  text-overflow: ellipsis;
+  width: 260px;
+}

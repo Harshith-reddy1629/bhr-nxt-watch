@@ -1,0 +1,17 @@
+.login-form {
+  width: 100%;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  gap: 6px;
+  /* width: 100%; */
+}
+
+.check-div {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

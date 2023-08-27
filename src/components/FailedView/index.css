@@ -1,0 +1,18 @@
+.failed-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  text-align: center;
+}
+
+.retry-bt {
+  background-color: transparent;
+  border: 0ch;
+  outline: none;
+  border: 1px solid #120965;
+  color: #120965;
+  padding: 6px 18px;
+  border-radius: 6px;
+}

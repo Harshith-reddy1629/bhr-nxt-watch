@@ -1,0 +1,29 @@
+.gaming-link-item {
+  all: unset;
+  height: 320px;
+  /* max-width: 190px; */
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+@media (max-width: 784px) {
+  .gaming-link-item {
+    height: 290px;
+    /* max-width: 180px; */
+  }
+}
+@media (max-width: 576px) {
+  .gaming-link-item {
+    height: 280px;
+    /* max-width: 110px; */
+  }
+}
+@media (max-width: 360px) {
+  .gaming-link-item {
+    height: 210px;
+    /* max-width: 110px; */
+  }
+}
